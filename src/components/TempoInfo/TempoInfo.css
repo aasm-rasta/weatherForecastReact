@@ -1,0 +1,36 @@
+.tempo-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.tempo-info{
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.temperatura{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.descricao{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+
+.detalhes{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px 0 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
