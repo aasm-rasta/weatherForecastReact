@@ -18,7 +18,7 @@ function TempoInfo5D({ tempo5D }) {
         }
     }
 
-    const next5DaysForecast = Object.values(previsoesDiarias).slice(0,6)
+    const next5DaysForecast = Object.values(previsoesDiarias).slice(1,6)
     
     function convertDate(date){
        const newDate = new Date(date.dt *1000).toLocaleDateString('pt-BR', {weekday:'long',day:'2-digit'})
