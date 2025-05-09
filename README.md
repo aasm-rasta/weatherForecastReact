@@ -11,7 +11,7 @@ Este é um projeto feito atráves dos meus estudos sobre REACT e API'S
    
 ## Pré-requisitos
 
-Não há pré-requisitos específicos para utilizar este gerador de senha.
+Não há pré-requisitos específicos para utilizar.
 
 ## Contribuindo
 Este é um projeto de código aberto e contribuições são bem-vindas! Sinta-se à vontade para propor melhorias, relatar problemas ou enviar solicitações de pull.
