@@ -11,6 +11,7 @@ function TempoInfo({ tempo }) {
         <div className='tempo-container'>
             {/*to indo dentro de tempo e pegando somente o nome e mostrando na tela*/}
             <h2>{tempo.name}</h2>
+            <p>{convertDateAtual(tempo)}</p>
             <div className='tempo-info'>
                 {/*puxando a imagem de acordo com a cidade que é digitado*/}
                 <img src={`https://openweathermap.org/img/wn/${tempo.weather?.[0]?.icon}@2x.png`} />
@@ -28,5 +29,10 @@ function TempoInfo({ tempo }) {
     )
 
 }
+
+function convertDateAtual(date){
+       const newDateAtual = new Date(date.dt *1000).toLocaleDateString('pt-BR', {weekday:'long',day:'2-digit'})
+       return newDateAtual
+    }
 
 export default TempoInfo
