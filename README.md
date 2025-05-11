@@ -1,6 +1,6 @@
 ﻿# PREVISÃO DE TEMPO
-
-Este é um projeto feito atráves dos meus estudos sobre REACT e API'S 
+Este é um projeto desenvolvido através dos meus estudos de REACT, mais especificamente aprimorando meus conhecimentos sobre os 
+alguns hooks (useState, useRef) e estudos sobre consultas de API's (openweathermap) 
 
 ## Visualize o projeto
 [Previsão do Tempo](https://aasm-rasta.github.io/weatherForecastReact/)
